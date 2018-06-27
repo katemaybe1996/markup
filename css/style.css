@@ -1,0 +1,334 @@
+@font-face {
+font-family: 'PFDinTextCompPro-regular';
+font-style: normal;
+font-weight: normal;
+src: local('pfdintextcondpro-regular.ttf'), url('fonts/pfdintextcondpro-regular.ttf') format('ttf');
+}
+@font-face {
+font-family: 'PFDinTextCompPro-bold';
+font-style: normal;
+font-weight: normal;
+src: local('pfdintextcondpro-bold.ttf'), url('fonts/pfdintextcondpro-bold.ttf') format('ttf');
+}
+body{
+	font-family: PFDinTextCondPro-regular, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	position: relative;
+
+}
+h2, h3{
+	margin: 0;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.logo{
+	position: absolute;
+	z-index: 3;
+}
+header{
+	max-width: 100%;
+	margin: 0 auto;
+	position:relative;
+}
+.wraper{
+	margin: auto 45px;
+	max-width: 100%;
+}
+header .wraper{
+	/*margin-top: -30px;*/
+	background: #a7b3b3;
+	/*min-height: 525px;*/
+}
+.top{
+	margin-left: 255px;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    height: 62px;
+}
+.menu{
+	/*padding: 0;*/
+	/*margin-left: 36px;*/
+	/*display: block;*/
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 39px;
+}
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+		flex-grow: 4;
+}
+.icons div{
+	display: flex;
+	height: 60px;
+	width: 40px;
+	border: 1px solid #a7b3b3;
+}
+
+.man{
+ 	margin-top: -150px;
+ 	float: right;
+	
+}
+.manbox{
+
+}
+.chat{
+	margin-right: 20px;
+	float: right;
+	cursor: pointer;
+}
+.titles{
+	clear: both;
+	max-width: 460px;
+	min-height: 20%;
+	text-align: center;
+	/*margin:-112px 0 0 270px;*/
+}
+h2{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+h3 a{
+	color: black;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.here{
+	color: #fff;
+}
+.jane{
+}
+.diamands{
+	max-width: 440px;
+	margin: -175px 0 0 210px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+
+}
+.FirstDiamond{
+	position: relative;
+left: 40px;
+bottom:85px;
+color:#a7b3b3;
+font-size: 14px;
+}
+.diamond1{
+	margin:3px;
+}
+.insider{
+	margin-top: -12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+.callToAction{
+	flex-basis: 30%;
+	flex-grow: 1;
+	background-color: #bababa;
+	text-align: center;
+	}
+	.callToActionText{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: -240px;
+	text-align: center;
+
+}
+.callToAction a {
+	text-decoration: none;
+	color: #fff;
+}
+.womanback{
+	flex-basis: 70%;
+	background-color: #f6f3ec;
+	flex-grow: 2;
+}
+.textRotate{
+	position: relative;
+	transform: rotate(90deg);
+	top: 190px;
+    left: -180px;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 11px;
+
+}
+.womanbackH{
+	color: #4d4d4d;
+	text-transform: uppercase;
+}
+.textwomanback{
+	margin-top: 40px;
+	float: right;
+}
+.textAboutStylist{
+	margin-right: 20px;
+
+}
+.flexwraper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.video{
+flex-basis: 30%;
+flex-grow: 1;
+}
+.calc{
+background-color: #e2e0e1;
+flex-basis: 40%;
+flex-grow: 2;
+text-align: center;
+flex-wrap: wrap;
+}
+.calc select, .purchase{
+	background-color: rgb(222, 220, 221);
+    border: 1px solid #8a8a8a;
+    width: 180px;
+    padding: 3px;
+    margin: 8px;
+}
+.calcText{
+	color: #4d4d4d;
+}
+.grayButton{
+	  background-color: rgb(167, 179, 179);
+	  border: 1px solid #8a8a8a;
+	  width: 180px;
+	  margin: 8px;
+	  padding: 3px;
+	}
+.flexWraperLastSec{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #e7ecf0;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.formPartners{
+	text-align: center;
+}
+.BlueShirt, .bag, .watch{
+margin: 15px 0 10px 0;
+}
+.icon{
+	float:left;
+	position: absolute;
+	margin-right: 20px;
+}
+.price{
+margin: -30px 0 0 10px;
+}
+.icons{
+margin: -30px 0 0 80px;
+}
+.iconsbottom{
+	margin-right: 20px;
+}
+.bottomText{
+	margin: -30px 0 0 60px;
+}
+.logoFooter{
+    min-height: 139px;
+    background-color: #d4dde4;
+    text-align: center;
+    padding-top: 27px;
+    border-bottom: 1px solid #e1e7ec;
+}
+.footerSecondPart{
+    background-color: #d4dde4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.appStore{
+	max-width: 250px;
+    padding: 25px 0 0 25px;
+    text-align: center;
+    flex-basis: 20%;
+    flex-grow: 3;
+}
+.linkFooter{
+	    color: #474747;
+	    text-transform: uppercase;
+}
+.menuFooter{
+	max-width:385px;
+	list-style: none;
+}
+.menuFooter li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #474747;
+}
+.liFooter{
+	margin-top: 70px;
+}
+.socialNetwoksText{
+	color: #474747;
+}
+.inputFooter{
+	margin : -10px 0 10px 0;
+	padding: 7px;
+}
+.btnFooter{
+  background-color: rgb(71, 71, 71);
+  max-width: 80px;
+  height: 30px;
+}
+.socialNetworks{
+
+}
+.iconsSocialNetworks{
+	flex-basis: 30%;
+	flex-grow: 2;
+}
+@media (max-width: 887px) {
+	.menu li{
+		display: none;
+	}
+	header .wraper{
+		margin-top: -100px;
+	}
+	.logo{
+		text-align: center;
+	}
+	.womanicon{
+		max-width: 50%;
+	}
+	.man{
+	max-width: 50%;
+		/*max-width: 70%;*/
+	}
+	.textwomanback{
+ 	float: none;
+	}
+	.socialNetworks{
+	margin-left: 50px;
+	}
+	.titles{
+		margin: 0;
+	}
+}
+@media (max-width: px) {
+	
+	}
+	}

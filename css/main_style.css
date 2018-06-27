@@ -1,0 +1,443 @@
+@font-face {
+font-family: 'PFDinTextCompPro-regular';
+font-style: normal;
+font-weight: normal;
+src: local('pfdintextcondpro-regular.ttf'), url('fonts/pfdintextcondpro-regular.ttf') format('ttf');
+}
+@font-face {
+font-family: 'PFDinTextCompPro-bold';
+font-style: normal;
+font-weight: normal;
+src: local('pfdintextcondpro-bold.ttf'), url('fonts/pfdintextcondpro-bold.ttf') format('ttf');
+}
+body{
+	font-family: PFDinTextCondPro-regular, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+h2, h3{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	position: absolute;
+}
+
+/*
+header{
+	max-width: 100%;
+	position:relative;*/
+
+
+.top{
+	margin-left: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+	float: left;
+	margin-right: 39px;
+	list-style-type: none;
+}
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	/*flex-grow: 4;*/
+}
+.icons{
+	display: flex;
+}
+.icons div{
+	height: 80px;
+	width: 40px;
+	border: 1px solid #a7b3b3;
+	text-align: center;
+}
+.icons div img{
+	padding-top: 42px;
+}
+/*ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+header {
+	overflow: hidden;
+}
+header .wraper{
+	margin: auto 45px;
+	background: #a7b3b3;
+}
+.menuT{
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	float: right;
+	display: none;
+
+}
+
+.menuT li{
+	border: 1px solid white;
+	background-color: grey;
+	width: 100%;
+	float:right;
+}
+
+
+.imgMenu{
+	display: none;
+	cursor: pointer;
+}
+.titles{
+	padding-top: 70px;
+	width: 60%;
+	text-align: center;
+}
+h2{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+h3 a{
+	color: black;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.here{
+	color: #fff;
+}
+.man{
+	float: right;
+	margin-top: -220px;
+}
+.jane_diamonds{
+	display: flex;
+	align-items: center;
+}
+.diamonds{
+	display: flex;
+	flex-wrap: wrap;
+	color:#a7b3b3;
+}
+.diamonds div{
+	display: flex;
+}
+.diamonds .bg{
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/dimonddd.png)
+}
+.diamond_p{
+	padding: 17px 0 0 33px; 
+}
+/*ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+
+.firstSec{
+	margin-top: -94px;
+} 
+
+.insider{
+	margin: 0 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.callToAction{
+	flex: 1;
+	background-color: #bababa;
+	position: relative;
+}
+
+.bg_frame{
+	padding: 28px;
+}
+.newTrip{
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	left: 90px;
+}
+.newTrip p, h2, a{
+	color: white;
+}
+.newTrip a{
+	text-transform: uppercase;
+}
+.woman_text{
+	flex: 3 700px;
+	align-items: flex-end;
+	justify-content: space-around;
+	background-color: #f6f3ec;
+	display: flex;
+}
+
+.woman{
+	/*flex-basis: 500px;*/
+}
+.text{
+	/*flex-basis: 500px;*/
+	position: relative;
+	padding-left: 30px;
+}
+.text h2{
+	color: black;
+	margin-top: 10px;
+}
+.textRotate{
+	font-size: 32px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	position: relative;
+	top: 100px;
+	left: -190px;
+	transform: rotate(90deg);
+}
+/*ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc*/
+
+.secondSec{
+	margin: 0 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.calc select, .purchase{
+	background-color: rgb(222, 220, 221);
+    border: 1px solid #8a8a8a;
+    width: 180px;
+    padding: 3px;
+    margin: 8px;
+}
+.calc h2, .looks h2{
+	color: black;
+	margin-top: 15px;
+}
+.wrap_video{
+	flex: 3;
+	display: flex;
+	max-width: 100%;
+}
+
+.calc_looks{
+	flex: 1;
+	display: flex;
+	flex-direction: column;	
+}
+.calc{
+	flex: 1;
+	background-color: #e2e0e1;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.calc h2{
+	padding: 40px 0 0 0;
+}
+.calc img{
+	padding-bottom: 20px;
+}
+select{
+	border: grey solid 1px ;
+	border-radius: 1px;
+	width: 180px;
+	height: 25px;
+}
+.grayButton{
+	color:white;
+	text-transform: uppercase;
+}
+.calc input{
+	/*margin-top: 20px;*/
+}
+.looks{
+	text-align: center;
+	flex: 1 350px;
+	display: flex;
+
+}
+.look1{
+	flex: 1;
+	background-color: #e6e2e1;
+}
+
+.look2{
+	flex: 1;
+	background-color: #d6d4d5;
+}
+.grayButton{
+	  background-color: rgb(167, 179, 179);
+	  border: 1px solid #8a8a8a;
+	  width: 180px;
+	  margin: 8px;
+	  padding: 3px;
+}
+.SecFour, footer{
+	margin:0 45px;
+}
+.flexWraperLastSec{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #e7ecf0;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.formPartners{
+	text-align: center;
+}
+.formPartners select{
+	background-color:#e7ecf0;
+}
+.formPartners h2{
+	color:black;
+	margin-top: 15px;
+}
+.BlueShirt, .bag, .watch{
+margin: 20px 0 10px 0;
+}
+.BlueShirt{
+	margin-bottom: -2px;
+}
+.icon{
+	float:left;
+	position: absolute;
+	margin-right: 20px;
+}
+.price{
+margin: -30px 0 0 10px;
+}
+.icons{
+margin: -30px 0 0 80px;
+}
+.iconsbottom{
+	margin-right: 20px;
+}
+.bottomText{
+	margin: -30px 0 0 60px;
+}
+.logoFooter{
+    min-height: 139px;
+    background-color: #d4dde4;
+    text-align: center;
+    padding-top: 27px;
+    border-bottom: 1px solid #e1e7ec;
+}
+.footerSecondPart{
+    background-color: #d4dde4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.appStore{
+	max-width: 250px;
+    padding: 25px 0 0 25px;
+    text-align: center;
+    flex-basis: 20%;
+    flex-grow: 3;
+}
+.linkFooter{
+	    color: #474747;
+	    text-transform: uppercase;
+}
+.menuFooter{
+	max-width:385px;
+	list-style: none;
+}
+.menuFooter li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #474747;
+}
+.liFooter{
+	margin-top: 70px;
+}
+.socialNetwoksText{
+	color: #474747;
+}
+.inputFooter{
+	margin : -10px 0 10px 0;
+	padding: 7px;
+}
+.btnFooter{
+  background-color: rgb(71, 71, 71);
+  max-width: 80px;
+  height: 30px;
+}
+.socialNetworks{
+
+}
+.iconsSocialNetworks{
+	flex-basis: 30%;
+	flex-grow: 2;
+}
+
+#slides{
+	position: relative;
+	height: 150px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+	font-size: 40px;
+	max-width: 100%;
+	min-height: 300px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+}
+
+.slide:nth-of-type(1){
+	background: url(../img/look1.png) no-repeat;
+}
+.slide:nth-of-type(2){
+	background: url(../img/Casual-Fashion-Trends-2017-5.jpg) no-repeat;
+}
+.slide:nth-of-type(3){
+	background: url(../img/Casual-Fashion-Trends-2017-3.jpg) no-repeat;
+}
+.slide:nth-of-type(4){
+	background: url(../img/Casual-Fashion-Trends-2017-8.jpg) no-repeat;
+}
+.slide:nth-of-type(5){
+	background: url(../img/Casual-Fashion-Trends-2017-1.jpg) no-repeat;
+}
+
+
+
+
+
+
+
+
+
